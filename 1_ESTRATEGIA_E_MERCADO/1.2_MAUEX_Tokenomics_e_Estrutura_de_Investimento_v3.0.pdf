@@ -1,0 +1,100 @@
+
+
+==============================================================================
+MODELO DE TOKENOMICS E ESTRUTURA DE INVESTIMENTO - PROJETO MAUAX
+==============================================================================
+
+DOCUMENTO:      ANEXO AO PLANO DE NEGÓCIOS MAUAX V1.0
+VERSÃO:         3.0 (PwC Standard)
+DATA:           31 DE JULHO DE 2025
+STATUS:         CONFIDENCIAL - VDR
+
+------------------------------------------------------------------------------
+1. ARQUITETURA DE ATIVOS DIGITAIS
+------------------------------------------------------------------------------
+
+O ecossistema MAUAX é sustentado por uma família de criptoativos
+projetados para alinhar os interesses de todos os stakeholders. Cada
+ativo possui uma função, um padrão técnico e um lastro específico.
+
+    TABELA 1.1: ARQUITETURA DE ATIVOS
+
+    +---------+----------+-------------+-----------------------------+
+    | ATIVO   | PADRÃO   | FUNÇÃO      | LASTRO / FONTE DE VALOR       |
+    +---------+----------+-------------+-----------------------------+
+    | MAUAX-G | ERC-721  | GOVERNANÇA  | DIREITOS DE VOTO E ECONÔMICOS |
+    | MAUAX-C | ERC-20   | UTILIDADE   | ATIVIDADE ECONÔMICA DO ECOSS. |
+    | MAUAX-E | ERC-20   | ENERGIA     | 1 TOKEN = 1 MWH GERADO        |
+    | MAUAX-R | ERC-20   | RECICLAGEM  | 1 TOKEN = 1 KG RECICLADO      |
+    | SECURITY| ERC-1400 | INVESTIMENTO| PARTICIPAÇÃO NOS LUCROS       |
+    | TOKENS  |          |             | DE PROJETOS ESPECÍFICOS     |
+    +---------+----------+-------------+-----------------------------+
+
+------------------------------------------------------------------------------
+2. TOKENOMICS DO MAUAX-C (MOEDA DE UTILIDADE)
+------------------------------------------------------------------------------
+
+O MAUAX-C é o ativo central de liquidez e o principal meio de troca.
+
+    - EMISSÃO MÁXIMA:       100.000.000.000 (100 BILHÕES)
+    - VALUATION (FDV):      US$ 20 BILHÕES
+    - PREÇO DE REFERÊNCIA:  US$ 0,20 POR TOKEN
+
+    ALOCAÇÃO PERCENTUAL:
+    - TESOURARIA DA DAO:    40%
+    - RECOMPENSAS DO ECOSS.: 25%
+    - EQUIPE E ADVISORS:    15% (COM VESTING)
+    - PARCEIROS ESTRATÉG.:  10%
+    - VENDA PÚBLICA:        10%
+
+------------------------------------------------------------------------------
+3. OPORTUNIDADES DE INVESTIMENTO TOKENIZADO
+------------------------------------------------------------------------------
+
+O financiamento do CAPEX será realizado através da oferta de Security
+Tokens, cada um representando uma participação nos resultados de um
+empreendimento específico.
+
+    3.1. RODA DA SEED (FASE 0)
+    --------------------------
+    - ATIVO:                MAUAX-SEED (NFT ERC-721)
+    - CONTRATO:             MauaxSeedNFT.sol
+    - VALOR DA CAPTAÇÃO:    R$ 15.000.000,00
+    - PROPÓSITO:            FINANCIAR ESTUDOS FEL I, II E III.
+    - DIREITOS:             PARTICIPAÇÃO NA SPE E VOTO PONDERADO NA
+                            GOVERNANÇA INICIAL.
+
+    3.2. INFRAESTRUTURA DE ENERGIA (POWER INFRASTRUCTURE)
+    -----------------------------------------------------
+    - ATIVO:                MAUAX-P (SECURITY TOKEN ERC-1400)
+    - CONTRATO BASE:        MauaxSecurityToken.sol
+    - PARÂMETROS:           NAME="MAUAX Power Token", SYMBOL="MAUAX-P"
+    - CAPEX FINANCIADO:     US$ 3,5 BILHÕES (TERMOTRIGERAÇÃO)
+    - PROPÓSITO:            FINANCIAR A CONSTRUÇÃO DA USINA DE 5 GW.
+    - DIREITOS:             PARTICIPAÇÃO NOS LUCROS DA VENDA DE ENERGIA.
+
+    3.3. DEMAIS OPORTUNIDADES DE INVESTIMENTO
+    -----------------------------------------
+    A tabela abaixo detalha as ofertas de Security Tokens para cada
+    vertical de negócio. Todos utilizam o contrato base
+    `MauaxSecurityToken.sol`, especializado no momento da implantação.
+
+    +----------------+---------------+--------------+----------------+
+    | VERTICAL       | CAPEX (US$MM) | TIR (% A.A.) | SECURITY TOKEN |
+    +----------------+---------------+--------------+----------------+
+    | ENERGIA JUSTA  | 700           | 18,0%        | MAUAX-S        |
+    | BIOPOLO MAUAX  | 1.200         | 25,0%        | MAUAX-B        |
+    | BIO DATA CLOUD | 500           | 30,0%        | MAUAX-D        |
+    | MAUÁ TOWER     | 200           | 15,0%        | MAUAX-T        |
+    +----------------+---------------+--------------+----------------+
+
+==============================================================================
+FIM DO DOCUMENTO
+==============================================================================```
+
+### **Como Integrar este Documento:**
+
+1.  **Plano de Negócios:** Este conteúdo deve ser inserido na **Seção 5 (MODELO FINANCEIRO E TOKENOMICS)** do seu `1.1_Plano_de_Negocios_MAUAX_v1.0.pdf`.
+2.  **Documento Independente:** Ele também pode ser salvo como um documento separado, `1.2_MAUEX_Tokenomics_e_Estrutura_de_Investimento_v3.0.pdf`, para ser compartilhado de forma mais focada com investidores interessados especificamente na camada digital.
+
+Este documento agora detalha de forma clara e profissional, no padrão "Courier New", toda a arquitetura de ativos do seu ecossistema, desde os tokens de utilidade até as oportunidades de investimento direto nos projetos.
